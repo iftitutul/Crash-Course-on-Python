@@ -10,3 +10,11 @@ Return statements in Python are even more interesting because we can use them to
 
 ## None
 None is a very special data type in Python used to indicate that things are empty or that they return nothing.
+
+# Code Style
+Self-documenting code is written in a way that's readable and doesn't conceal its intent.
+
+# Refactoring
+In programming lingo, when we re-write code to be more self-documenting, we call this process refactoring.
+
+With this refactored code, the intent should now be more clear. The names of the variables and the function reflect their purpose, which helps the reader understand the code more quickly
