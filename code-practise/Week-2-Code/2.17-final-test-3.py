@@ -31,7 +31,7 @@ def format_name(first_name, last_name):
    elif (first_name != "") and (last_name != ""):
       return ("Name: " + last_name + ", " + first_name)
    else:
-	   return ("Empty string")
+	   return ("")
 
 print(format_name("Ernest", "Hemingway"))
 # Should return the string "Name: Hemingway, Ernest"
