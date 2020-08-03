@@ -6,7 +6,7 @@ Check out below for a run down of the syntax for while loops and for loops.
 
 A while loop executes the body of the loop while the condition remains True.
 
-Syntax:
+**Syntax:**
 ```
 while condition:
     body
@@ -17,7 +17,7 @@ Things to watch out for!
 - **Failure to initialize variables.** Make sure all the variables used in the loop’s condition  are initialized before the loop.
 - **Unintended infinite loops.** Make sure that the body of the loop modifies the variables used in the condition, so that the loop will eventually end for all possible values of the variables.
 
-Typical use:
+**Typical use:**
 
 While loops are mostly used when there’s an unknown number of operations to be performed, and a condition needs to be checked at each iteration.
 
@@ -25,7 +25,7 @@ While loops are mostly used when there’s an unknown number of operations to be
 
 A for loop iterates over a sequence of elements, executing the body of the loop for each element in the sequence.
 
-Syntax:
+**Syntax:**
 ```
 for variable in sequence
     body
@@ -44,7 +44,7 @@ range() generates a sequence of integer numbers. It can take one, two, or three 
 - **Forgetting that the upper limit of a range() isn’t included.**
 - **Iterating over non-sequences.** Integer numbers aren’t iterable. Strings are iterable letter by letter, but that might not be what you want.
 
-Typical use:
+**Typical use:**
 
 For loops are mostly used when there's a pre-defined sequence or range of numbers to iterate.
 Break & Continue
