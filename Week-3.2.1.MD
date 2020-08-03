@@ -1,7 +1,8 @@
-## Loops Cheat Sheet
+# Loops Cheat Sheet
 
 Check out below for a run down of the syntax for while loops and for loops.
-While Loops
+
+## While Loops
 
 A while loop executes the body of the loop while the condition remains True.
 
@@ -19,7 +20,8 @@ Things to watch out for!
 Typical use:
 
 While loops are mostly used when there’s an unknown number of operations to be performed, and a condition needs to be checked at each iteration.
-For Loops
+
+## For Loops
 
 A for loop iterates over a sequence of elements, executing the body of the loop for each element in the sequence.
 
