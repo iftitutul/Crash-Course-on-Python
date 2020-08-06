@@ -53,4 +53,4 @@ You can interrupt both while and for loops using the break keyword. We normally 
 
 You can use the continue keyword to skip the current iteration and continue with the next one. This is typically used to jump ahead when some of the elements of the sequence aren’t relevant.
 
-If you want to learn more, check out this [[wiki page on for loops](https://wiki.python.org/moin/ForLoop).
+If you want to learn more, check out this [wiki page on for loops](https://wiki.python.org/moin/ForLoop).
