@@ -23,6 +23,7 @@ print (" ".join(["This", "is", "Iftikhar"]))
 print("...".join(["This", "is", "Iftikhar"]))
 
 print("This is Iftikhar Hossain".split())
+print( "This is none").split("none")
 
 print("this is tutul".title())
 
