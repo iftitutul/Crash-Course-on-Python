@@ -29,3 +29,21 @@ Below, you’ll find links to some of the most popular online interpreters and c
     https://trinket.io/python3
     http://pythontutor.com/live.html
     https://ehmatthes.github.io/pcc/cheatsheets/README.html
+    
+### Top 4 Github Repos to Learn Python (or copy some code!)
+
+1. All algorithms implemented in Python
+By: The Algorithms
+https://lnkd.in/guaDFtA
+
+2. 30-Days-Of-Python
+By: Asabeneh Yetayeh
+https://lnkd.in/gJuJDuw
+
+3. Playground and Cheatsheet for Learning Python
+By: Oleksii Trekhleb
+https://lnkd.in/gT_QueF
+
+4. Learn Python 3
+By: Jerry Pussinen
+https://lnkd.in/gRm8xYs
