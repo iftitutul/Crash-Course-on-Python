@@ -1,0 +1,36 @@
+version: "3.7"
+services:
+  frontend:
+    image: node:10.19.0-alpine3.9
+    volumes:
+      - ./frontend:/app/frontend
+    ports:
+      - "80:8080/tcp"
+    networks:
+      - frontend
+    depends_on:
+      - database
+      - backend
+    
+  backend:
+    image: python:3.7-alpine3.9
+    volumes:
+      - ./backend:/app/backend
+    ports:
+      - "6000:6000/udp"
+    networks:
+      - database
+    depends_on:
+      - database
+  
+  database:
+    image: mysql:5.6.47
+    networks:
+      - database
+
+networks:
+  frontend:
+    external:
+      name: frontend-ingress 
+  database:
+      name: database
